@@ -1,0 +1,96 @@
+.body{
+    text-align:center;
+}
+.title{
+    text-align:center;
+    font-size:50px;
+    font-family: fantasy;
+}
+.button{
+    text-align:center;
+}
+.profile{			
+    width:205px;
+    height:auto;
+    line-height:50px;
+    border:2px black solid;
+    margin-right:10px;
+    float:left;
+    display: block;
+}
+.view{
+    font-size: 20px;
+    font-weight:bold;
+    width:1000px;
+    height:auto;
+    line-height:50px;
+    padding:20px;
+    border:2px black solid;
+    float:left;
+}
+.back{
+    width:auto;
+    height:auto;
+    background-color: silver;;
+}
+.down{
+    margin-left:0px;
+    width:auto;
+    margin:center;
+}
+
+/* DIVBOX MY INFORMASTION */
+.IBOX{
+    height: 10px;
+    display: table;
+    width: 100%;
+}
+.left{
+    /* width:200px;
+    line-height:auto;
+    padding:20px;
+    border:2px darkgreen solid;
+    margin-right:10px;
+    float:left;
+    text-align:center */
+    width: 200px;
+    height: 100px;
+    line-height: 80px;
+    border:2px black solid;
+    display: table-cell;
+    text-align:center;
+}
+.TE .FB .TW{	
+    float:center;
+    }
+
+.center{
+    /* 
+    line-height:auto;
+    padding:20px;;
+    margin-right:10px;
+    float:left; */
+    width: 200px;
+    height: 100px;
+    line-height: 80px;
+    border:2px black solid;
+    display: table-cell;
+    text-align:center;
+}
+.right{
+    /* width:200px;
+    line-height:auto;
+    padding:20px;
+    border:2px darkgreen solid;
+    margin-right:10px;
+    float:left;
+    text-align:center */
+    width: 200px;
+    height: 100px;
+    line-height: 80px;
+    border:2px black solid;
+    display: table-cell;
+    text-align:center;
+}
+
+/* until dawn */

@@ -1,0 +1,93 @@
+div.pic{
+    text-align: center;
+}
+img{
+ height: 200px;
+ width: 200px;
+ text-align: center;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content1{
+    background-color: aqua;
+    background-image:url(/image/Penguins.jpg);
+    border-color:white white skyblue white;
+    border-width:3px;
+    border-style:solid;
+    padding:5px;
+ margin-bottom: 30px!important;
+}
+.content{
+    border-color:white white skyblue white;
+    border-width:3px;
+    border-style:solid;
+    padding:5px;
+ margin-bottom: 30px!important;
+}
+.contentload{
+	width:278px;
+	margin:0;
+	position:relative;
+	float:left;
+	font-size:12px;
+	line-height:2em;
+	padding:30px 0 30px;
+}
+.expand { 
+	height:1px; 
+	margin:2px 0; 
+	background:#2187e7; 
+	position:absolute;
+	box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+.title-m30{
+ text-align: center;
+ font-size: 25px;
+}
+.text-m30{
+ text-align: center;
+ font-size: 15px;
+}
+.text-m30l{
+ text-align: center;
+ font-size: 15px;
+}
+
+.left,.right{
+    float:left;
+    width:50%;
+}
+.Chinese       { width:99%;  -moz-animation:Chinese 2s ease-out;  -webkit-animation:Chinese 2s ease-out;       
+}
+.English       { width:50%;  -moz-animation:English 2s ease-out;  -webkit-animation:English 2s ease-out;       
+}
+.C             { width:20%;  -moz-animation:C 2s ease-out;  -webkit-animation:C 2s ease-out;       
+}
+.Python       { width:50%;  -moz-animation:Python 2s ease-out;  -webkit-animation:Python 2s ease-out;       
+}
+@-moz-keyframes Chinese       { 0%  { width:0px;} 100%{ width:99%;} 
+}
+@-moz-keyframes English       { 0%  { width:0px;} 100%{ width:50%;} 
+}
+@-moz-keyframes C             { 0%  { width:0px;} 100%{ width:20%;} 
+}
+@-moz-keyframes Python { 0%  { width:0px;} 100%{ width:50%;} }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+@-webkit-keyframes Chinese       { 0%  { width:0px;} 100%{ width:99%;} 
+} 
+@-webkit-keyframes English       { 0%  { width:0px;} 100%{ width:50%;} 
+} 
+@-webkit-keyframes C       { 0%  { width:0px;} 100%{ width:20%;} 
+} 
+@-webkit-keyframes Python       { 0%  { width:0px;} 100%{ width:50%;} 
+} 
+
+@media (max-width:800px){
+    .left,
+    .right{
+        width:100%;
+    }
+}

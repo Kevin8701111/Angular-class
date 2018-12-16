@@ -1,0 +1,199 @@
+.pic {
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1 .zh_name {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.2rem;
+}
+
+h1 .zh_info {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.2rem;
+
+}
+
+h1 .en_name {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.french_fries {
+    background-color: rgb(117, 50, 19);
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.proportion {
+    padding-right: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    text-align:right;
+}
+
+.space {
+    height: 30px;
+}
+
+.space_L {
+   height: 100px; 
+}
+
+.myMargin {
+    margin: 50px;
+}
+
+.myFrame {
+    border-width:3px;
+    border-style:solid;
+    padding:5px;
+    margin-top:20px;
+    width:70px;
+    height:70px;
+    margin:auto;
+    text-align:center;
+    line-height:50px;
+}
+
+.language_content {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+}
+
+.foo
+{
+   position: relative;
+   height: 150;
+   width: 150;
+}
+
+h1 .zh_language {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.email,
+.phone {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left,
+.right {
+    background-color: #b15d37;  
+    padding: 20px;
+    float: left;
+    width: 50%;
+} 
+
+.myLeftView{
+    background-color: rgb(255, 255, 255); 
+    border-style:solid;
+    border-color: rgb(117, 50, 19);
+    margin:0px auto;
+}
+
+.myRightView{
+    background-color:  rgb(255, 255, 255); 
+    border-style:solid;
+    border-color: rgb(117, 50, 19);
+    margin:0px auto;
+}
+
+@media (max-width:800px) {
+
+    .left,
+    .right {
+        width: 100%;
+    }
+}
+
+
+.sub {
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    padding-top: 31px;
+    height: 34px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.sub .subbg {
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+    background: #dcdfe6;
+    text-align: center;
+}
+
+.sub .subbgw {
+    width: 100%;
+    height: 10px; 
+    border-radius: 10px;
+    background: #dcdfe6;
+    text-align: center;
+}
+
+.progress {
+    margin: 10px;
+    width: 95%;
+    background: rgba(216, 201, 157, 0.945);
+}
+
+.myPro{ 
+    padding: 10px;
+    width: 95%;
+    height: 10px; 
+    border-radius: 10px;
+    background: rgba(216, 201, 157, 0.945);
+    margin:0px auto;
+}
+
+.inPro{ 
+    border: 2px;
+    width: 10%;
+    height: 10px; 
+    border-radius: 10px;
+    background: rgb(255, 110, 74);
+    
+    text-align: left;
+}
+
+.curRate {
+    width: 40%;
+    background: rgb(255, 110, 74);
+}
+.curRate1 {
+    width: 60%;
+    background: rgb(255, 110, 74);
+}
+.curRate2 {
+    width: 20%;
+    background: rgb(255, 110, 74);
+}
+.curRate4 {
+    width: 0%;
+    background: rgb(255, 110, 74);
+}
+
+.round-conner {
+    padding:3px;
+    border-radius: 10px;
+}
